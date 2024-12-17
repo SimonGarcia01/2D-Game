@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.stardewvalley2.control.HelloController">
+    <children>
+        <Canvas fx:id="canvas" focusTraversable="true" height="768.0" width="1024.0" />
+      <Label fx:id="stoneLabel" layoutX="720.0" layoutY="70.0" textFill="#FFD700">
+        <font>
+            <Font name="Comic Sans MS" size="25.0" />
+        </font></Label>
+        <Label fx:id="masteryLabel" layoutX="1.0" layoutY="-5.0" prefHeight="36.0" prefWidth="391.0" textFill="#FFD700">
+            <font>
+                <Font name="Comic Sans MS" size="25.0" />
+            </font></Label>
+        <Label fx:id="woodLabel" layoutX="650" layoutY="70.0" textFill="#FFD700">
+            <font>
+                <Font name="Comic Sans MS" size="25.0" />
+            </font></Label>
+      <Label fx:id="swordLabel" layoutX="770.0" layoutY="70.0" textFill="#FFD700">
+         <font>
+            <Font name="Comic Sans MS" size="25.0" />
+         </font></Label>
+      <Label fx:id="axeLabel" layoutX="970.0" layoutY="70.0" textFill="#FFD700">
+         <font>
+            <Font name="Comic Sans MS" size="25.0" />
+         </font></Label>
+      <Label fx:id="hoeLabel" layoutX="910.0" layoutY="70.0" textFill="#FFD700">
+         <font>
+            <Font name="Comic Sans MS" size="25.0" />
+         </font></Label>
+      <Label fx:id="pickaxeLabel" layoutX="840.0" layoutY="70.0" textFill="#FFD700">
+         <font>
+            <Font name="Comic Sans MS" size="25.0" />
+         </font></Label>
+      <Label fx:id="tutorialLB" layoutX="370" layoutY="700" prefHeight="36.0" prefWidth="414.0" text="Press &quot;P&quot; to open Tutorial☻" textFill="#FFD700">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
